@@ -1,0 +1,97 @@
+@media only screen and (max-width:1600px){
+    *{
+        margin: 0;
+    }
+    body{
+        text-align: center;
+    }
+   #logo{
+    width: 15%;
+    height: 15%;
+   }
+
+   h1{
+    font-size: 40px;
+   }
+ .mydiv{
+        width: 85%;
+    }
+    .img1{
+    
+    align-items: center;
+    align-self: center;
+
+    }
+   
+}
+
+
+@media only screen and (max-width:1080px){
+    *{
+        margin: 0;
+    }
+   
+   
+    #logo{
+        display: none;
+    }
+
+   
+
+    h1{
+        display: none;
+    }
+
+    .img2{
+        width: 35%;
+        margin: 0 auto;
+     
+    }
+
+
+    
+
+ 
+    .img1{
+        display: none;
+    }
+    
+  
+
+  
+}
+
+
+@media only screen and (max-width:960px){
+    .mydiv{
+        background-color: #00000000;
+        box-shadow: none;
+    }
+}
+
+
+@media only screen and (max-width:690px) {
+  
+ 
+
+
+ 
+    .d{
+      width: 100%;
+    }
+   
+   
+   
+  
+  
+    
+  
+    .d{
+      width: 100%;
+    }
+   
+   
+ 
+
+  
+  }
