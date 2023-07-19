@@ -6,7 +6,7 @@ body {
     background-size:cover;
     background-position: center;
   
-  
+    text-align: center;
     background-repeat: repeat;
  
 }
@@ -102,20 +102,20 @@ input{
 }
 
 p{
-    color: #000;
+    color: #ffffff;
      
-     padding:10px 20px;
+    padding:10px 20px;
     font-size: 20px;
     font-family: sans-serif;
     
-     margin-top: 20px;
+    margin-top: 20px;
     
-     background-color: rgb(192, 233, 255);
+    background-color: #413ADA;
    
-     border-radius: 40px;
+    border-radius: 40px;
   
    
-   }
+}
 
 #btn1{
     position: relative;
@@ -128,13 +128,21 @@ p{
     width: 100%;
     border-radius: 10px;
     margin: 0 10px;
-    background-color: blue;
+    background-color: #413ADA;
     color: white;
     padding: 10px;
     border: none;
     box-shadow: none;
-    font-size: 18px;
+    font-size: 20px;
+    text-decoration: none;
 }
+
+.s:hover{
+    background-color: #F8C853;
+    color: #000000;
+}
+
+
 
 #logo{
   display: flex;
@@ -283,8 +291,33 @@ p{
 #sectionContent.open {
   display: block; /* Show the section when the "open" class is applied */
 }
-
-
+#game_content{
+    display:none;
+}
+  
+#game_content.open{
+    display: block;
+}
+#ps{
+    margin: 10px;
+    padding: 30px;
+    border: none;
+  }
+  
+#pb{
+    background-color: #413ADA;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 20px 60px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+#pb:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+  
 
 
 /* Add styles for the buttons */
